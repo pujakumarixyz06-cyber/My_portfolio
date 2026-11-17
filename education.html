@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Education | Puja</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #e0f2fe, #fce7f3, #ede9fe);
+            color: #334155;
+            line-height: 1.7;
+        }
+
+        nav {
+            background: white;
+            padding: 18px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            box-shadow: 0 3px 15px #00000010;
+        }
+
+        .logo {
+            font-size: 23px;
+            font-weight: bold;
+            color: #7c3aed;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #475569;
+            font-weight: bold;
+            margin: 0 8px;
+        }
+
+        nav a:hover {
+            color: #9333ea;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 65px 20px 40px;
+        }
+
+        .hero .icon {
+            font-size: 55px;
+        }
+
+        .hero h1 {
+            color: #7c3aed;
+            font-size: 42px;
+            margin: 10px 0;
+        }
+
+        .hero p {
+            color: #64748b;
+            font-size: 17px;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .heading {
+            text-align: center;
+            color: #7c3aed;
+            font-size: 28px;
+            margin: 35px 0 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 28px;
+            margin-bottom: 22px;
+            border-radius: 18px;
+            border-left: 5px solid #a78bfa;
+            box-shadow: 0 5px 20px #0000000d;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px #7c3aed20;
+        }
+
+        .card h2 {
+            color: #7c3aed;
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            color: #475569;
+            margin: 5px 0;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #ede9fe;
+            color: #6d28d9;
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 12px;
+        }
+
+        .subjects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            gap: 18px;
+        }
+
+        .subject {
+            background: white;
+            padding: 23px 12px;
+            text-align: center;
+            border-radius: 16px;
+            box-shadow: 0 5px 15px #0000000d;
+            transition: 0.3s;
+        }
+
+        .subject:hover {
+            transform: translateY(-5px);
+            background: #faf5ff;
+        }
+
+        .subject span {
+            font-size: 35px;
+        }
+
+        .subject h3 {
+            color: #7c3aed;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .dream {
+            background: linear-gradient(135deg, #7c3aed, #c084fc);
+            color: white;
+            text-align: center;
+            padding: 40px 25px;
+            border-radius: 22px;
+            margin: 50px 0;
+        }
+
+        .dream h2 {
+            font-size: 27px;
+            margin-bottom: 15px;
+        }
+
+        .dream p {
+            line-height: 1.9;
+        }
+
+        .btn {
+            display: inline-block;
+            background: white;
+            color: #7c3aed;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 30px;
+            margin-top: 22px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #ede9fe;
+        }
+
+        footer {
+            background: white;
+            text-align: center;
+            padding: 25x;
+            color: #64748b;
+            margin-top: 40px;
+        }
+        @media (max-width: 600px){
+            nav {
+                justify-content: center;
+                text-align: center;
+            }
+            nav div:last-child{
+                line-height: 2.5;
+            }
+            .hero h1{
+                font-size: 32px;
+            }
+            .card{
+                padding: 20px;
+            }
+        }
+        </style>
+        </head>
+         
+        <body>
+            <nav>
+                <div class="logo">Puja's Portfolio</div>
+                <div>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="education.html">Education</a>
+                    
+                    <a href="projects.html">Projects</a>
+
+                </div>
+            </nav>
+            <section class="hero">
+                <div class="icon>"🎓📒</
+                    div>
+
+                    <h1>My Education</h1>
+                    <p>My journey of learning,
+                        growing and achieving dreams.
+                    </p>
+                    <p style="margin-top:12px;">
+                        Every step takes me closer to my
+                        future!💫✨
+                        </p>
+                        </section>
+                        <main class="container">
+
+                            <h2 class="heading">🌞My Academic Journey</h2>
+                            <div class="card">
+                                <h2>Bachelor og Technology🎓</h2>
+                             <p><b>Course:</b>B.Tech</p>
+                             <p><b>Branch:</b> Information Technology🎓(IT)
+                            </p>                         
+                                <p><b>College:</b>University College
+                                of Engineering & Technology</p>
+                                <p><b>University:</b>Vinoba Bhave University(VBU)</p>
+                                <p><b>Location:</b>Jharkhand,India</p>
+                                <p><b>Year:</b>First Year</p>
+                                <span
+                                class="tag">Currently Pursuing</span>
+                                </div>
+
+                                <div class="card">
+                                    <h2>Higher Secondary🗒️ Education</h2>
+                                    <p><b>Qualification:</b>Class 12</p>
+                                    <p><b>Stream</b>Science</p>
+                                    <p><b>Percentage:</b>76.4%</p>
+                                    <p><b>Location:</b>Jharkhand,India</p>
+                                    <span
+                                    class="tag">completed</span>
+                                </div>
+                                <div class="card">
+                                    <h2>Secondary🏫 Education</h2>
+                                    <p><b>Qualification:</b>Class 10</p>
+                                    <p><b>School:</b>Upgraded High School Jhurjhuri</p>
+                                    <p><b>Location</b>Jharkhand,India</p>
+                                    <span
+                                    class="tag">Completed</span>
+                                </div>
+                                <section class="dream">
+                                    <h2>My Learning Journey✨</h2>
+                                    <p> I am a First-year Information
+                                        Technology student
+                                        who loves learning new skills
+                                        and exploring technology.
+                                        <br>
+                                        Currently,I am learning programing,
+                                        C++,DSA in C++,HTML,CSS and javascript.
+                                        <br>
+                                        My dream is to become a skilled Software Engineering
+                                        and create
+                                        meaningful projects that solve real-world problems.
+                                    <br><br>
+                                    "Dream Big, Learn Daily and Never Give Up!"🚀
+                                    </p>
+                                    <a href="index.html"
+                                    class="btn">~Back to Home</a>
+                                    </section>
+
+                                    </main>
+                                    <footer>
+                                        <p>Made with 💕 by Puja</p>
+                                        <p>2026 Puja's Portfolio</p>
+                                        <p>keep Learning.keep Growing🌷</p>
+                                    </footer>
+                                    </body>
+                                    </html>
+
+                            
